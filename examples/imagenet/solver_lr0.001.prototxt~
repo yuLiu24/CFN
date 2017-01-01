@@ -1,0 +1,15 @@
+net: "examples/imagenet/CFN_imagenet_train_val.prototxt"
+test_iter: 1000
+test_interval: 1000
+#test_initialization: false
+base_lr: 0.001 # 0.1 ?
+lr_policy: "fixed"
+#gamma: 0.1
+#stepsize: 100000
+display: 20
+max_iter: 150000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 10000
+snapshot_prefix: "models/DFN_imagenet/Models_11/SPP_Local_11_layers_small_allBN_nobias_train_val"
+solver_mode: GPU

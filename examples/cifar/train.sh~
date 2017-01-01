@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+TOOLS=./build/tools
+
+$TOOLS/caffe train \
+    --solver=examples/cifar/cifar10_ModelB_solver.prototxt \
+    2>&1 | tee cifar10_ModelB.log
+
