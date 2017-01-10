@@ -17,7 +17,7 @@ stepsize: 40000
 # Display every 200 iterations
 display: 200
 # The maximum number of iterations
-max_iter: 100000
+max_iter: 120000
 # snapshot intermediate results
 snapshot: 50000
 snapshot_prefix: "examples/cifar/Models/CFN_cifar10"
